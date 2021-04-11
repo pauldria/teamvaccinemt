@@ -13,10 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Team Vaccine MT
+title: MM
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  You get a vaccine! You get a vaccine! Everyone gets a vaccine!
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
@@ -24,7 +26,7 @@ search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes@4.22.0"
+remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -111,20 +113,3 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-
-# Custom settings
-
-link_1:
-  show: true
-  url: https://covid19.missoula.co/
-  text: Missoula City/County Health Department
-
-link_2:
-  show: false
-  url: https://www.cdc.gov
-  text: CDC
-  
-link_3:
-  show: false
-  url: https://www.google.com
-  text: Google
