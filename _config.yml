@@ -4,11 +4,15 @@ description: You get a vaccine! You get a vaccine! Everyone gets a vaccine!
 
 link_1:
   show: true
-  url: http://health.umt.edu/publichealth/
-  text: UM School of Public Health
+  url: https://covid19.missoula.co/
+  text: Missoula City/County Health Department
 
 link_2:
-  show: true
+  show: false
   url: https://www.cdc.gov
   text: CDC
   
+link_3:
+  show: false
+  url: https://www.google.com
+  text: Google
